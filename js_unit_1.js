@@ -15,7 +15,7 @@ function ButtonClick(){
     // складываем
 	var sum = number1+number2;       
     // результат суммирования в алертбоксе
-	window.alert('Результат: \n \n'  +sum);  
+	window.alert('Результат: \n \n'  +sum.toFixed(1));  
 }
 
 //расчет 
